@@ -10,7 +10,7 @@ import GenderComponent from "@/app/component/Gender";
 export default function Home() {
   return (
     <>
-          <p>Aswan 1</p>
+      
         <div className="Name p-4 bg-gray-100">
         {/* NAME Section */}
         <section id="nameSection" className="mb-8">
