@@ -204,7 +204,7 @@ const PhonesComponent: React.FC = () => {
   +201006227769`
     .split('\n')
     .filter(Boolean)
-    .map((line) => line.trim());
+    .map((line) => line.trim().replace(/^\+2/, ''));
 
   useEffect(() => {
     const PhonesElement = document.getElementById('p-PHONE');

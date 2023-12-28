@@ -1,5 +1,5 @@
-"use client";;
-import React, { useEffect } from 'react';
+"use client";
+import React, { useEffect } from "react";
 
 const data = `صفاء,ديب
 Mahitab,Mohamed
@@ -203,26 +203,27 @@ Yassin Abdelrazek,Ahmed
 Ahmed,Hegazy`;
 
 const NameComponent: React.FC = () => {
-
-  const entries = data.split('\n');
+  const entries = data.split("\n");
   const dataArray = entries.map((entry) => {
-    const [firstName, lastName] = entry.split(',');
+    const [firstName, lastName] = entry.split(",");
     return { firstName, lastName };
   });
 
   useEffect(() => {
-    const element = document.getElementById('p-NAME');
+    const element = document.getElementById("p-NAME");
 
     if (element) {
       dataArray.forEach((item, index) => {
-        const pElement = document.createElement('p');
-        pElement.textContent = `${index + 1} - ${item.firstName} ${item.lastName}`;
+        const pElement = document.createElement("p");
+        pElement.textContent = `${index + 1} -  ${item.firstName} ${
+          item.lastName
+        }`;
         element.appendChild(pElement);
       });
     }
   }, [dataArray]);
 
-  return null
+  return null;
 };
 
 export default NameComponent;
