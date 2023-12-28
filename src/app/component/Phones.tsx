@@ -201,8 +201,7 @@ const PhonesComponent: React.FC = () => {
   +201211659504
   +201005470584
   +201114866602
-  +201006227769
-  `
+  +201006227769`
     .split('\n')
     .filter(Boolean)
     .map((line) => line.trim());

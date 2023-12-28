@@ -4,6 +4,7 @@ import React, { ReactNode } from "react";
 import Stats from "@/app/component/Stats";
 import Names from "@/app/component/Names";
 import Phones from "@/app/component/Phones";
+import CityComponent from "@/app/component/City";
 
 export default function Home() {
   return (
@@ -17,8 +18,13 @@ export default function Home() {
           {" "}
           Status : <Stats />{" "}
         </p>
-        <p id="p-PHONE">Phones : <Phones /></p>
-        <p id="p-CITY"></p>
+        <p id="p-PHONE">
+          Phones : <Phones />
+        </p>
+        <p id="p-CITY">
+          {" "}
+          City : <CityComponent />
+        </p>
         <p id="p-GENDER"></p>
       </div>
     </>
