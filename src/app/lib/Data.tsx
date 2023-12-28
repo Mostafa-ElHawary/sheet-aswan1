@@ -199,46 +199,57 @@ Khaled,Mohamed
 Yassin Abdelrazek,Ahmed
 Ahmed,Hegazy`;
 
-export const status = `Married
-Single
-Married
-Single
-Married
-Single
-
-Married
-Single
-Married
-Single
-
+export const statuses =  `Married
 Single
 Married
 
 Single
-Single
+
 
 Married
-Married
 Single
-Single
-
-Single
-
 Married
 
 Single
-Single
 
-Married
+
+
+
+
 
 Married
 Married
 Single
 Single
+
+Single
+
+Married
+
+
+
+Single
+Single
+
+
+Married
+
+
+
+
+Married
+Married
+Married
+Single
+Single
 Single
 
 Single
 Single
+
+
+
+
 
 Married
 
@@ -250,18 +261,45 @@ In an open relationship
 Single
 Single
 
+
+
+
+
+
+
+
+
+
+
+
+
 Single
 Single
 Single
 Single
+
+
+
+
+
+
+
 
 It's complicated
 It's complicated
 It's complicated
 
+
+
+
+
+
 Single
 Single
 Single
+
+
+
 
 Married
 Married
@@ -269,54 +307,90 @@ Married
 Married
 Married
 
-Married
-Married
-
-Single
-Single
-
-Engaged
-Engaged
-
-Single
-
-Single
-Engaged
-Engaged
 
 Married
-Single
-
-Single
-
-Single
-
-Single
 Married
 
+Single
 Single
 
 Engaged
+Engaged
+
+
+
+
+Single
+
+
+Single
+Engaged
+Engaged
+
+
 Married
+Single
+
+Single
+
+
+
+
+
+
+Single
+
+Single
+Married
+
+
+Single
+
+
+
+Engaged
+Married
+
+
+
+
+
+
+Married
+
+
+
+
+
+
+
+
 
 Married
 
 Married
-
-Married
-
 Single
 Married
-Married
-Married
+Single
+
+
 
 Single
+Married
+Married
+Married
+
+
+Single
 Single
 Married
 Single
 Single
 Single
 Single
+
+
+
 
 Single
 
