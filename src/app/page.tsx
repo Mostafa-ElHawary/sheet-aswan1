@@ -3,6 +3,7 @@ import React, { ReactNode } from "react";
 // import { sectionsData, CustomSection } from "@/app/LIB/Data";
 import Stats from "@/app/component/Stats";
 import Names from "@/app/component/Names";
+import Phones from "@/app/component/Phones";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
           {" "}
           Status : <Stats />{" "}
         </p>
-        <p id="p-PHONE"></p>
+        <p id="p-PHONE">Phones : <Phones /></p>
         <p id="p-CITY"></p>
         <p id="p-GENDER"></p>
       </div>
