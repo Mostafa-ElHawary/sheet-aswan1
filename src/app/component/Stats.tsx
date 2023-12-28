@@ -225,14 +225,24 @@ const StatusComponent: React.FC = () => {
 const statusRef = useRef<HTMLParagraphElement | null>(null);
 
 useEffect(() => {
-  if (statusRef.current) {
-    statusRef.current.innerHTML = statuses
-      .map((status, index) => `${index + 1} - ${status}`)
-      .join('<br />');
-  }
+  const statusElement = document.getElementById('p-STUTAS');
+  // if (statusRef.current) {
+  //   statusRef.current.innerHTML = statuses
+  //     .map((status, index) => `${index + 1} - ${status}`)
+  //     .join('<br />');
+  // }
+
+    if (statusElement) {
+      statuses.forEach((status, index) => {
+        const pElement = document.createElement('p');
+        pElement.innerText = `${index + 1} - ${status}`;
+        statusElement.appendChild(pElement);
+      });
+    }
 }, [statuses]);
 
-return <p id="p-STUTAS" ref={statusRef} className="mt-2 text-gray-800"></p>;
+return null ;
+// return <p id="p-STUTAS" ref={statusRef} className="mt-2 text-gray-800"></p>;
 };
 
 export default StatusComponent;
