@@ -1,19 +1,3 @@
-// const data = `...`; // Paste your data here
-
-// // Step 1: Split the data by line breaks
-// const entries = data.split('\n');
-
-// // Step 2 and 3: Split each entry by commas and create an array of objects
-// const dataArray = entries.map(entry => {
-//   const [firstName, lastName] = entry.split(',');
-//   return { firstName, lastName };
-// });
-
-// // Step 4: Loop through the array and print or process each entry
-// dataArray.forEach((entry, index) => {
-//   console.log(`Entry ${index + 1}: First Name: ${entry.firstName}, Last Name: ${entry.lastName}`);
-//   // You can perform additional processing or rendering here
-// });
 
 const data = `صفاء,ديب
 Mahitab,Mohamed
@@ -231,7 +215,6 @@ for (let i = 0; i < dataArray.length; i++) {
   const pElement = document.createElement('p');
   pElement.textContent = `${i+1} - ${firstName} ${lastName}`;
   element.appendChild(pElement);
-//   console.log(`${firstName} ${lastName}`);
 }
 
 const Status = `Married
@@ -370,18 +353,3 @@ for (let i = 0; i < statuses.length; i++) {
   statusElement.appendChild(pElement);
 }
 
-// const entries = data.split('\n');
-// const dataArray = entries.map(entry => {
-//   const [firstName, lastName] = entry.split(',');
-//   return { firstName, lastName };
-// });
-
-// const element = document.getElementById('p-NAME');
-
-// for (let i = 0; i < dataArray.length; i++) {
-//   const { firstName, lastName } = dataArray[i];
-//   const pElement = document.createElement('p');
-//   pElement.textContent = `${i+1} - ${firstName} ${lastName}`;
-//   element.appendChild(pElement);
-// //   console.log(`${firstName} ${lastName}`);
-// }

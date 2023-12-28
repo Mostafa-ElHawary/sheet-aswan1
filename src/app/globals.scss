@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Name {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 equal-width columns */
+    grid-gap: 1px; /* Add some space between columns */
+  }
+  
+  #p-NAME,
+  #p-STUTAS,
+  #p-PHONE,
+  #p-CITY,
+  #p-GENDER {
+    /* Your individual styling for each p element */
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: start;
+    background-color: #f0f0f0; /* Default background color */
+    margin: 10px;
+
+  }
+  p{
+    /* padding: 5px; */
+  }
+  /* Apply background color for even rows */
+.Name p:nth-child(even) {
+    background-color: #e0e0e0; /* Alternate background color */
+  }
