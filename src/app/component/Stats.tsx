@@ -143,7 +143,7 @@ Married`
     }
   }, [statuses]);
 
-  return null;
+  return null
 };
 
 export default StatusComponent;

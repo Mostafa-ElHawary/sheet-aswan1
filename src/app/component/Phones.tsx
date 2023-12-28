@@ -217,8 +217,7 @@ const PhonesComponent: React.FC = () => {
       });
     }
   }, [statuses]);
-
-  return null;
+  return null
 };
 
 export default PhonesComponent;

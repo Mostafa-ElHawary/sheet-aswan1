@@ -13,27 +13,40 @@ const CityComponent: React.FC = () => {
     Asyut
     Assiut
     Assiut
+    
     Assiut
+    
+    
     Asyut
     Assiut
     Assiut
+    
+    
     Assiut
     Assiut
     Sohag
     Sohag
+    
+    
+    Asyut
+    
     Asyut
     Asyut
     Asyut
-    Asyut
+    
     Assiut
+    
     Assiut
     Asyut
+    
+    
     Assiut
     Assiut
     Asyut
     Asyut
     Assiut
     Cairo  Egypt
+    
     Assiut
     Assiut
     Abu Tîg  Asyut  Egypt
@@ -41,18 +54,30 @@ const CityComponent: React.FC = () => {
     Assiut
     Assiut
     Asyut
+    
     Asyut
+    
+    
     Cairo  Egypt
     Asyut
     Asyut
     Asyut
     Asyut
+    
+    
+    
+    
     Asyut
     Asyut
+    
     Asyut
+    
+    
     Cairo  Egypt
     Cairo  Egypt
     Cairo  Egypt
+    
+    
     Asyut
     Asyut
     Assiut
@@ -66,6 +91,10 @@ const CityComponent: React.FC = () => {
     Assiut
     Assiut
     Assiut
+    
+    
+    
+    
     Assiut
     Assiut
     Assiut
@@ -73,60 +102,100 @@ const CityComponent: React.FC = () => {
     Asyut
     Asyut
     Asyut
+    
+    
     Asyut
+    
     Assiut
     Assiut
     Assiut
+    
+    
     Assiut
+    
+    
+    
     Asyut
     Asyut
+    
     Assiut
     Assiut
     Assiut
+    
     Asyut
     Asyut
     Asyut
     Al Qusiyah  Asyut  Egypt
     Assiut
     Assiut
+    
     Assiut
     Assiut
     Assiut
+    
     Assiut
     Asyut
     Al Qusiyah  Asyut  Egypt
+    
+    
+    
     Assiut
     Assiut
+    
     Asyut
     Assiut
+    
     Kafr El Sheikh
     Alexandria  Egypt
+    
+    
     Assiut
+    
+    
     Cairo  Egypt
     Asyut
     Assiut
+    
     Assiut
     Assiut
+    
+    
+    
+    
+    
+    
     Assiut
+    
+    
     Asyut
     Assiut
+    
     Assiut
     Assiut
+    
+    
     Asyut
     Asyut
     Matay  Al Minya  Egypt
     Asyut
+    
+    
     Assiut
     Cairo  Egypt
     Cairo  Egypt
     Assiut
     Asyut
     Assiut
+    
     Cairo  Egypt
+    
     Assiut
     Assiut
     Assiut
     Assiut
+    
+    
+    
     Asyut
     Cairo  Egypt
     Abu Tig
@@ -134,7 +203,7 @@ const CityComponent: React.FC = () => {
     Asyut
     Asyut
     Assiut
-    Cairo  Egypt`;
+    Cairo  Egypt`
 
     const cities = Location.split('\n').filter(Boolean).map(line => line.trim());
     const cityElement = document.getElementById('p-CITY');
@@ -148,7 +217,12 @@ const CityComponent: React.FC = () => {
     }
   }, []);
 
-  return null;
+  return (
+    <div>
+      <h2>City Information</h2>
+      <div id="p-GENDER"></div>
+    </div>
+  );
 };
 
 export default CityComponent;

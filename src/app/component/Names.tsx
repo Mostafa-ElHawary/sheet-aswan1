@@ -222,7 +222,7 @@ const NameComponent: React.FC = () => {
     }
   }, [dataArray]);
 
-  return null;
+  return null
 };
 
 export default NameComponent;

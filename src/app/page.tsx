@@ -5,6 +5,7 @@ import Stats from "@/app/component/Stats";
 import Names from "@/app/component/Names";
 import Phones from "@/app/component/Phones";
 import CityComponent from "@/app/component/City";
+import GenderComponent from "@/app/component/Gender";
 
 export default function Home() {
   return (
@@ -12,20 +13,22 @@ export default function Home() {
       <div className="Name ">
         <p id="p-NAME">
           {" "}
-          Names :<Names />
+          NAME : <Names />
         </p>
         <p id="p-STUTAS">
           {" "}
-          Status : <Stats />{" "}
+          STUTUS : <Stats />{" "}
         </p>
         <p id="p-PHONE">
-          Phones : <Phones />
+          PHONE : <Phones />
         </p>
         <p id="p-CITY">
           {" "}
-          City : <CityComponent />
+          CITY : <CityComponent />
         </p>
-        <p id="p-GENDER"></p>
+        <p id="p-GENDER">
+          GENDER : <GenderComponent />{" "}
+        </p>
       </div>
     </>
   );
