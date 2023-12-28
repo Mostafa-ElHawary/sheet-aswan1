@@ -14,7 +14,7 @@ export default function Home() {
         <div className="Name p-4 bg-gray-100">
         {/* NAME Section */}
         <section id="nameSection" className="mb-8">
-          <h2 className="text-2xl font-semibold text-blue-700">NAME </h2>
+          <h2 className="text-2xl font-semibold text-blue-700">Name </h2>
           <p id="p-NAME" className="mt-2 text-gray-800">
             <Names />
           </p>
@@ -22,7 +22,7 @@ export default function Home() {
 
         {/* STATUS Section */}
         <section id="statusSection" className="mb-8">
-          <h2 className="text-2xl font-semibold text-blue-700">STATUS </h2>
+          <h2 className="text-2xl font-semibold text-blue-700">Status </h2>
           <p id="p-STUTAS" className="mt-2 text-gray-800">
             <Stats />
           </p>
@@ -30,7 +30,7 @@ export default function Home() {
 
         {/* PHONE Section */}
         <section id="phoneSection" className="mb-8">
-          <h2 className="text-2xl font-semibold text-blue-700">PHONE </h2>
+          <h2 className="text-2xl font-semibold text-blue-700">Phone </h2>
           <p id="p-PHONE" className="mt-2 text-gray-800">
             <Phones />
           </p>
@@ -38,7 +38,7 @@ export default function Home() {
 
         {/* CITY Section */}
         <section id="citySection" className="mb-8">
-          <h2 className="text-2xl font-semibold text-blue-700">CITY </h2>
+          <h2 className="text-2xl font-semibold text-blue-700">City </h2>
           <p id="p-CITY" className="mt-2 text-gray-800">
             <CityComponent />
           </p>
@@ -46,7 +46,7 @@ export default function Home() {
 
         {/* GENDER Section */}
         <section id="genderSection" className="mb-8">
-          <h2 className="text-2xl font-semibold text-blue-700">GENDER </h2>
+          <h2 className="text-2xl font-semibold text-blue-700">Gender </h2>
           <p id="p-GENDER" className="mt-2 text-gray-800">
             <GenderComponent />
           </p>
