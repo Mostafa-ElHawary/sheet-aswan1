@@ -217,12 +217,7 @@ const CityComponent: React.FC = () => {
     }
   }, []);
 
-  return (
-    <div>
-      <h2>City Information</h2>
-      <div id="p-GENDER"></div>
-    </div>
-  );
+  return null
 };
 
 export default CityComponent;

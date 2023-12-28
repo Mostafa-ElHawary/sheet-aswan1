@@ -207,7 +207,7 @@ const GenderComponent: React.FC = () => {
     }
   }, []);
 
-  return null
+  return null;
 };
 
 export default GenderComponent;
