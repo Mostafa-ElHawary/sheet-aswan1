@@ -11,8 +11,7 @@ import JobComponent from "@/app/component/Jobs";
 export default function Home() {
   return (
     <>
-      
-        <div className="Name p-4 bg-gray-100">
+      <div className="Name p-4 bg-gray-100">
         {/* NAME Section */}
         <section id="nameSection" className="mb-8">
           <h2 className="text-2xl font-semibold text-blue-700">Name </h2>
@@ -53,15 +52,14 @@ export default function Home() {
           </p>
         </section>
 
-             {/* GENDER Section */}
-             <section id="genderSection" className="mb-8">
+        {/* Job Section */}
+        <section id="genderSection" className="mb-8">
           <h2 className="text-2xl font-semibold text-blue-700">Jobs </h2>
-          <p id="p-GENDER" className="mt-2 text-gray-800">
-          <JobComponent/>
+          <p id="p-Job" className="mt-2 text-gray-800">
+            <JobComponent />
           </p>
         </section>
       </div>
     </>
   );
 }
-

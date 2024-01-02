@@ -4,7 +4,7 @@
 
 .Name {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 equal-width columns */
+    grid-template-columns: repeat(6, 1fr); /* 5 equal-width columns */
     grid-gap: 1px; /* Add some space between columns */
   }
   
@@ -12,7 +12,8 @@
   #p-STUTAS,
   #p-PHONE,
   #p-CITY,
-  #p-GENDER {
+  #p-GENDER,
+  #p-Job {
     /* Your individual styling for each p element */
     padding: 5px;
     // border: 1px solid #ccc;
