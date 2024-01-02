@@ -53,7 +53,7 @@ export default function Home() {
         </section>
 
         {/* Job Section */}
-        <section id="genderSection" className="mb-8">
+        <section id="jobSection" className="mb-8">
           <h2 className="text-2xl font-semibold text-blue-700">Jobs </h2>
           <p id="p-Job" className="mt-2 text-gray-800">
             <JobComponent />

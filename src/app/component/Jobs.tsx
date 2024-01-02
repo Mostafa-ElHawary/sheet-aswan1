@@ -130,7 +130,7 @@ const JobComponent: React.FC = () => {
     `;
 
     const Job = Jobs.split('\n').filter(Boolean);
-    const JobElement = document.getElementById('p-GENDER');
+    const JobElement = document.getElementById('p-Job');
 
     if (JobElement) {
       for (let i = 1; i < Job.length; i++) {
