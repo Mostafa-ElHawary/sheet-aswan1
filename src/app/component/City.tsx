@@ -128,8 +128,7 @@ const CityComponent: React.FC = () => {
     
     
     
-    Cairo  Egypt
-    `
+    Cairo  Egypt`
 
     const cities = Location.split('\n').filter(Boolean).map(line => line.trim());
     const cityElement = document.getElementById('p-CITY');

@@ -121,8 +121,7 @@ Zeina,Abd Elaziz
 Ola,Farag
 Ola,Farag
 Yasmin,Morad
-Hala,Anass
-`;
+Hala,Anass`;
 
 export const statuses =  `Relationship
 Married
@@ -248,5 +247,4 @@ Engaged
 
 
 
-Single
-`
+Single`

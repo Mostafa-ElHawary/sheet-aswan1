@@ -125,8 +125,7 @@ const PhonesComponent: React.FC = () => {
   +201117119223
   +201156766211
   +201112023063
-  +201220191190
-  `
+  +201220191190`
     .split('\n')
     .filter(Boolean)
     .map((line) => line.trim().replace(/^\+2/, ''));

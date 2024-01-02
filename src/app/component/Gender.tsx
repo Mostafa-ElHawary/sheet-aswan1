@@ -126,8 +126,7 @@ const GenderComponent: React.FC = () => {
     female
     female
     female
-    female
-    `;
+    female`;
 
     const genders = GenderData.split('\n').filter(Boolean);
     const genderElement = document.getElementById('p-GENDER');

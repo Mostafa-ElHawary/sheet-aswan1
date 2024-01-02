@@ -126,8 +126,7 @@ const JobComponent: React.FC = () => {
     Model@Cairo  Egypt
     @
     @
-    @محاسب
-    `;
+    @محاسب`;
 
     const Job = Jobs.split('\n').filter(Boolean);
     const JobElement = document.getElementById('p-Job');
