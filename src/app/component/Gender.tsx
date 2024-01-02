@@ -5,20 +5,16 @@ const GenderComponent: React.FC = () => {
   useEffect(() => {
     const GenderData = `female
     female
-
+    
     female
-    male
     female
     female
     female
-    male
     female
+    
+    
     female
-    male
     female
-    male
-
-
     female
     female
     female
@@ -28,11 +24,9 @@ const GenderComponent: React.FC = () => {
     female
     female
     female
-
     female
     female
     female
-
     female
     female
     female
@@ -53,117 +47,6 @@ const GenderComponent: React.FC = () => {
     female
     female
     female
-    female
-    female
-    female
-    female
-    female
-    male
-    male
-    male
-    male
-
-    female
-    female
-    female
-    female
-    female
-    female
-    male
-    female
-    female
-    male
-    male
-    female
-
-
-    female
-    female
-    female
-    male
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    male
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    male
-    female
-    female
-    female
-    male
-    male
-    female
-    male
-    male
-    female
-    female
-    female
-    female
-    female
-    male
-    female
-    male
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    female
-    male
     female
     female
     female
@@ -193,7 +76,58 @@ const GenderComponent: React.FC = () => {
     female
     male
     male
-    male`;
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    female
+    `;
 
     const genders = GenderData.split('\n').filter(Boolean);
     const genderElement = document.getElementById('p-GENDER');

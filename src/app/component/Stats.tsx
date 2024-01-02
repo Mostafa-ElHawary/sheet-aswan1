@@ -20,40 +20,31 @@ import { statuses } from "@/app/lib/Data";
 // return null
 
 const StatusComponent: React.FC = () => {
-  const statuses = `Married
-  Single
+  const statuses = `Relationship
   Married
   
-  Single
   
   
-  Married
-  Single
-  Married
   
   Single
   
+  Single
   
+  Single
   
   
   
   
   Married
-  Married
-  Single
-  Single
-  
-  Single
   
   Married
-  
-  
-  
   Single
-  Single
-  
+  Married
   
   Married
+  
+  Engaged
+  Engaged
   
   
   
@@ -65,21 +56,39 @@ const StatusComponent: React.FC = () => {
   Single
   Single
   
+  Married
+  
+  
+  
+  
+  Married
+  Married
+  Married
+  
   Single
   Single
+  
+  
+  Married
+  
+  
+  Married
+  Single
+  Married
+  
+  Single
+  Single
+  
+  
+  
+  
+  
   
   
   
   
   
   Married
-  
-  
-  In an open relationship
-  In an open relationship
-  In an open relationship
-  In an open relationship
-  Single
   Single
   
   
@@ -87,8 +96,11 @@ const StatusComponent: React.FC = () => {
   
   
   
-  
-  
+  Single
+  Single
+  Engaged
+  In a relationship
+  In a relationship
   
   
   
@@ -98,127 +110,42 @@ const StatusComponent: React.FC = () => {
   Single
   Single
   Single
-  
-  
-  
-  
-  
-  
+  Married
   
   
   It's complicated
-  It's complicated
-  It's complicated
-  
-  
-  
-  
-  
-  
-  Single
-  Single
-  Single
-  
-  
+  In a relationship
   
   
   Married
   Married
-  Married
-  Married
-  Married
-  
-  
-  Married
-  Married
-  
-  Single
-  Single
   
   Engaged
+  
+  Married
   Engaged
   
   
   
   
-  Single
   
   
-  Single
-  Engaged
-  Engaged
-  
-  
-  Married
-  Single
-  
-  Single
-  
-  
-  
-  
-  
-  
-  Single
-  
-  Single
-  Married
-  
-  
-  Single
   
   
   
   Engaged
-  Married
-  
-  
-  
-  
-  
-  
-  Married
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  Married
-  
-  Married
-  Single
-  Married
   Single
   
+  Engaged
   
   
-  Single
-  Married
-  Married
-  Married
   
-  
-  Single
-  Single
-  Married
-  Single
-  Single
-  Single
-  Single
   
   
   
   
   Single
-  
-  Single
-  Single
-  Married
-  Married`
+  `
   //   .split('\n')
   //   .filter(Boolean)
   //   .map((line) => line.trim());

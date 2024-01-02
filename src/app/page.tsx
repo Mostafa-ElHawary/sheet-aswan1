@@ -6,6 +6,7 @@ import Names from "@/app/component/Names";
 import Phones from "@/app/component/Phones";
 import CityComponent from "@/app/component/City";
 import GenderComponent from "@/app/component/Gender";
+import JobComponent from "@/app/component/Jobs";
 
 export default function Home() {
   return (
@@ -49,6 +50,14 @@ export default function Home() {
           <h2 className="text-2xl font-semibold text-blue-700">Gender </h2>
           <p id="p-GENDER" className="mt-2 text-gray-800">
             <GenderComponent />
+          </p>
+        </section>
+
+             {/* GENDER Section */}
+             <section id="genderSection" className="mb-8">
+          <h2 className="text-2xl font-semibold text-blue-700">Jobs </h2>
+          <p id="p-GENDER" className="mt-2 text-gray-800">
+          <JobComponent/>
           </p>
         </section>
       </div>

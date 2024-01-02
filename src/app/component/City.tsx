@@ -4,73 +4,31 @@ import { useEffect } from 'react';
 
 const CityComponent: React.FC = () => {
   useEffect(() => {
-    const Location = `Assiut
+    const Location = `Hometown
 
-    Asyut
-    Assiut
-    Asyut
-    Asyut
-    Asyut
-    Assiut
-    Assiut
-    
-    Assiut
+
+
+    Helwan
     
     
-    Asyut
-    Assiut
-    Assiut
+    Mansoura
     
     
-    Assiut
-    Assiut
-    Sohag
-    Sohag
     
     
-    Asyut
-    
-    Asyut
-    Asyut
-    Asyut
-    
-    Assiut
-    
-    Assiut
-    Asyut
     
     
-    Assiut
-    Assiut
-    Asyut
-    Asyut
-    Assiut
+    Gaza City
     Cairo  Egypt
     
-    Assiut
-    Assiut
-    Abu Tîg  Asyut  Egypt
-    Asyut
-    Assiut
-    Assiut
-    Asyut
-    
-    Asyut
-    
-    
+    Hlwanlwazi  Eastern Cape  South Africa
+    Misr El-Gedida  Al Qahirah  Egypt
     Cairo  Egypt
-    Asyut
-    Asyut
-    Asyut
-    Asyut
+    El Matariya  Al Qahirah  Egypt
+    Cairo  Egypt
     
     
     
-    
-    Asyut
-    Asyut
-    
-    Asyut
     
     
     Cairo  Egypt
@@ -78,132 +36,100 @@ const CityComponent: React.FC = () => {
     Cairo  Egypt
     
     
-    Asyut
-    Asyut
-    Assiut
-    Mallawi
-    Assiut
-    Assiut
-    Assiut
-    Assiut
-    Assiut
-    Assiut
-    Assiut
-    Assiut
-    Assiut
+    Cairo  Egypt
+    
+    Cairo  Egypt
+    Cairo  Egypt
+    Giza
+    Cairo  Egypt
+    Cairo  Egypt
+    Cairo  Egypt
+    Cairo  Egypt
+    
+    Cairo  Egypt
+    Cairo  Egypt
+    
+    Giza
+    Giza
+    Cairo  Egypt
+    El Marâgha  Suhaj  Egypt
     
     
+    Cairo  Egypt
+    Cairo  Egypt
+    Cairo  Egypt
     
     
-    Assiut
-    Assiut
-    Assiut
-    Assiut
-    Asyut
-    Asyut
-    Asyut
+    Cairo  Egypt
+    Cairo  Egypt
     
     
-    Asyut
+    Alexandria  Egypt
+    Cairo  Egypt
+    Cairo  Egypt
+    Cairo  Egypt
+    Rome  Italy
     
-    Assiut
-    Assiut
-    Assiut
+    Cairo  Egypt
     
-    
-    Assiut
-    
-    
-    
-    Asyut
-    Asyut
-    
-    Assiut
-    Assiut
-    Assiut
-    
-    Asyut
-    Asyut
-    Asyut
-    Al Qusiyah  Asyut  Egypt
-    Assiut
-    Assiut
-    
-    Assiut
-    Assiut
-    Assiut
-    
-    Assiut
-    Asyut
-    Al Qusiyah  Asyut  Egypt
+    Cairo  Egypt
+    Giza
     
     
+    Cairo  Egypt
+    Cairo  Egypt
     
-    Assiut
-    Assiut
     
-    Asyut
-    Assiut
+    Helwan
+    Helwan
+    Cairo  Egypt
+    Cairo  Egypt
+    Cairo  Egypt
     
-    Kafr El Sheikh
+    Cairo  Egypt
+    Cairo  Egypt
+    
+    
+    Cairo  Egypt
+    Cairo  Egypt
+    Cairo  Egypt
+    Cairo  Egypt
+    Giza
+    
+    
+    El Haram  Al Jizah  Egypt
+    Cairo  Egypt
+    Cairo  Egypt
+    
+    El-Mahalla El-Kubra
+    El-Mahalla El-Kubra
+    
     Alexandria  Egypt
     
+    Cairo  Egypt
+    Cairo  Egypt
+    Cairo  Egypt
+    Cairo  Egypt
+    Cairo  Egypt
+    El Haram  Al Jizah  Egypt
     
-    Assiut
     
     
     Cairo  Egypt
-    Asyut
-    Assiut
-    
-    Assiut
-    Assiut
-    
-    
-    
-    
-    
-    
-    Assiut
-    
-    
-    Asyut
-    Assiut
-    
-    Assiut
-    Assiut
-    
-    
-    Asyut
-    Asyut
-    Matay  Al Minya  Egypt
-    Asyut
-    
-    
-    Assiut
     Cairo  Egypt
-    Cairo  Egypt
-    Assiut
-    Asyut
-    Assiut
+    Giza
+    Madinet El-Nasr  Al Qahirah  Egypt
+    
+    
+    
+    
     
     Cairo  Egypt
     
-    Assiut
-    Assiut
-    Assiut
-    Assiut
     
     
-    
-    Asyut
     Cairo  Egypt
-    Abu Tig
-    Asyut
-    Asyut
-    Asyut
-    Assiut
-    Cairo  Egypt`
+    `
 
     const cities = Location.split('\n').filter(Boolean).map(line => line.trim());
     const cityElement = document.getElementById('p-CITY');
